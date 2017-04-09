@@ -1,0 +1,6 @@
+
+<RCC>
+    <qresource prefix="/de/skycoder42/qtmvvm/settings/widgets">
+        <file>qmldir</file>
+    </qresource>
+</RCC>
