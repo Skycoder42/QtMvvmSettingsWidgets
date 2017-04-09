@@ -15,6 +15,7 @@
     "fingerprint": ""
   },
   "dependencies": [
+    "de.skycoder42.qtmvvm.widgets@1.0.0"
   ],
   "license": "BSD_3_CLAUSE",
   "pri_filename": "de_skycoder42_qtmvvm_settings_widgets.pri",
