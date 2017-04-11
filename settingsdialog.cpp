@@ -415,5 +415,5 @@ QSize CategoryItemDelegate::sizeHint(const QStyleOptionViewItem &option, const Q
 
 static void settingsInit()
 {
-	XmlSettingsSetupLoader::overwriteDefaultIcon(QStringLiteral(":/qtmvvm/icons/settings.ico"));
+	XmlSettingsSetupLoader::overwriteDefaultIcon(QStringLiteral("qrc:/qtmvvm/icons/settings.ico"));
 }
