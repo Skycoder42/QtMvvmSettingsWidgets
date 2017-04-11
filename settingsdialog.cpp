@@ -5,7 +5,12 @@
 #include <QPushButton>
 #include <QScrollArea>
 #include <QDebug>
+#include <QCoreApplication>
 #include <coremessage.h>
+#include <xmlsettingssetuploader.h>
+
+static void settingsInit();
+Q_COREAPP_STARTUP_FUNCTION(settingsInit)
 
 #define TAB_CONTENT_NAME "tabContent_371342666"
 
@@ -406,4 +411,9 @@ QSize CategoryItemDelegate::sizeHint(const QStyleOptionViewItem &option, const Q
 	QSize size = QStyledItemDelegate::sizeHint(option, index);
 	_updateFunc(size.width());
 	return size.expandedTo(_iconSize);
+}
+
+static void settingsInit()
+{
+	XmlSettingsSetupLoader::overwriteDefaultIcon(QStringLiteral(":/qtmvvm/icons/settings.ico"));
 }
