@@ -39,9 +39,9 @@ SettingsDialog::SettingsDialog(Control *mControl, QWidget *parent) :
 	}
 
 #ifdef Q_OS_OSX
-	auto font = ui->titleLabel->font();
+	auto font = _ui->titleLabel->font();
 	font.setPointSize(16);
-	ui->titleLabel->setFont(font);
+	_ui->titleLabel->setFont(font);
 #endif
 
 	int listSpacing = calcSpacing(Qt::Vertical);
