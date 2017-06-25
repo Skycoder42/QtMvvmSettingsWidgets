@@ -10,15 +10,15 @@
     "url": "https://github.com/Skycoder42/QtMvvmSettingsWidgets.git"
   },
   "version": {
-    "label": "1.0.5",
+    "label": "1.0.6",
     "revision": "",
     "fingerprint": ""
   },
   "dependencies": [
-    "de.skycoder42.qtmvvm.widgets@1.0.3",
-    "de.skycoder42.dialog-master@1.2.6",
+    "de.skycoder42.qtmvvm.widgets@1.0.4",
+    "de.skycoder42.dialog-master@1.2.7",
     "de.skycoder42.qpm-include@1.0.0",
-    "de.skycoder42.qpm-translate@1.0.0"
+    "de.skycoder42.qpm-translate@1.1.0"
   ],
   "license": "BSD_3_CLAUSE",
   "pri_filename": "de_skycoder42_qtmvvm_settings_widgets.pri",
