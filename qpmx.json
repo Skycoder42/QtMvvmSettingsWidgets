@@ -1,0 +1,33 @@
+{
+    "dependencies": [
+        {
+            "package": "de.skycoder42.qtmvvm.widgets",
+            "provider": "qpm",
+            "version": "1.1.0"
+        }
+    ],
+    "license": {
+        "file": "LICENSE",
+        "name": "BSD_3_CLAUSE"
+    },
+    "prcFile": "",
+    "priFile": "de_skycoder42_qtmvvm_settings_widgets.pri",
+    "priIncludes": [
+    ],
+    "publishers": {
+        "qpm": {
+            "author": {
+                "email": "skycoder42.de@gmx.de",
+                "name": "Skycoder"
+            },
+            "description": "The widgets frontend of QtMvvm settings module",
+            "name": "de.skycoder42.qtmvvm.settings.widgets",
+            "repository": {
+                "type": "GITHUB",
+                "url": "https://github.com/Skycoder42/QtMvvmSettingsWidgets.git"
+            },
+            "webpage": "https://github.com/Skycoder42/QtMvvm"
+        }
+    },
+    "source": false
+}
