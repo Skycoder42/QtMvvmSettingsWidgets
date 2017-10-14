@@ -12,7 +12,7 @@
 static void settingsInit();
 Q_COREAPP_STARTUP_FUNCTION(settingsInit)
 
-#define TAB_CONTENT_NAME "tabContent_371342666"
+#define TAB_CONTENT_NAME QStringLiteral("tabContent_371342666")
 
 SettingsDialog::SettingsDialog(Control *mControl, QWidget *parent) :
 	QDialog(parent),
