@@ -1,2 +1,3 @@
 # QtMvvmSettingsWidgets
-The widgets frontend of QtMvvm settings module
+
+Has been replaced by https://github.com/Skycoder42/QtMvvm
